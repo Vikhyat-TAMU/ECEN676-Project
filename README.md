@@ -1,6 +1,10 @@
 # ECEN676-Project-Path confidence based Prefetching
 
-This repository contains our implementation and performance analysis of SPP_ALT(our implementation) vs SPP_DEV(Original implementation), No Prefetcher, Variable Length Delta Prefetcher,          Best Offset Prefetcher, DA-AMPM Prefetcher using the ChampSim simulator as part of the ECEN676 course project.
+I led the design and implementation of this project as part of the ECEN676: Advanced Computer Architecture course, guiding a team focused on exploring memory prefetching strategies for modern processors. Our work centered on enhancing the Signature Path Prefetcher (SPP) by introducing a confidence-based adaptive throttling mechanism, implemented as SPP_ALT.
+
+I coordinated the overall system design, integration, simulation, and performance analysis using ChampSim, ensuring that our implementation was benchmarked rigorously against leading prefetchers such as BOP, VLDP, and DA-AMPM. The project emphasized both architectural innovation and quantitative evaluation — aligning closely with real-world hardware design practices for CPU and AI accelerators.
+
+This repository contains our implementation and performance analysis of SPP_ALT(our implementation) vs SPP_DEV(Original implementation), No Prefetcher, Variable Length Delta Prefetcher, Best Offset Prefetcher, DA-AMPM Prefetcher using the ChampSim simulator as part of the ECEN676 course project.
 
 The primary goals are:
 - To implement and enhance the Signature Path Prefetcher (SPP)
